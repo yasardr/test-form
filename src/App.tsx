@@ -1,4 +1,5 @@
-import { Form } from './components/Form';
+import Form from './components/Form';
+import DataTable from './components/DataTable';
 import './App.css';
 
 const App = () => {
@@ -9,11 +10,8 @@ const App = () => {
       </div>
       
       <Form />
-
-      {/* Table */}
-      <section>
-          {/* ID, Name, Email, Website, Action (edit, clear) */}
-      </section>
+      
+      <DataTable />
     </div>
   )
 }

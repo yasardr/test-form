@@ -5,7 +5,7 @@ interface DataState {
     key: string;
 }
 
-export const Form = () => {
+const Form = () => {
   return (
     <section className="row">
         <div className="col-12 col-lg-4 mb-3">
@@ -75,3 +75,5 @@ export const Form = () => {
       </section>
   )
 }
+
+export default Form;
