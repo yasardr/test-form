@@ -16,34 +16,34 @@ interface DataState {
     key: string;
 }
 
-// const initialFormData = {
-// 	name: '',
-//   firstlastname: '',
-//   secondlastname: '',
-//   curp: '',
-//   rfc: '',
-//   postalcode: '',
-//   street: '',
-//   numberone: '',
-//   numbertwo: '',
-//   state: '',
-//   municipality: '',
-//   cologne: '',
-// };
 const initialFormData = {
-	name: 'a',
-  firstlastname: 'a',
+	name: '',
+  firstlastname: '',
   secondlastname: '',
-  curp: 'AABS981109HMRLBS14',
-  rfc: 'ASPL9511098G3',
-  postalcode: '50670',
-  street: 'a',
-  numberone: '1',
-  numbertwo: '2',
-  state: 'ZAC',
-  municipality: 'a',
-  cologne: 'a',
+  curp: '',
+  rfc: '',
+  postalcode: '',
+  street: '',
+  numberone: '',
+  numbertwo: '',
+  state: '',
+  municipality: '',
+  cologne: '',
 };
+// const initialFormData = {
+// 	name: 'a',
+//   firstlastname: 'a',
+//   secondlastname: '',
+//   curp: 'AABS981109HMRLBS14',
+//   rfc: 'ASPL9511098G3',
+//   postalcode: '50670',
+//   street: 'a',
+//   numberone: '1',
+//   numbertwo: '2',
+//   state: 'ZAC',
+//   municipality: 'a',
+//   cologne: 'a',
+// };
 
 const Form = () => {
   const [formData, setFormData] = useState(initialFormData);
