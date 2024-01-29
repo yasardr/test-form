@@ -14,7 +14,8 @@
     "@table-library/react-table-library": "^4.1.7",
     "axios": "^1.6.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sweetalert2": "^11.10.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
