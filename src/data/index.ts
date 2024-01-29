@@ -32,11 +32,3 @@ export const listStates = [
     { name: "Yucatán", key: "YUC" },
     { name: "Zacatecas", key: "ZAC" }
 ];
-
-export const nodes = [
-    { id: 1, name: "Juan Pablo", email: "juanpablo@gmail.com", website: "juanpablo.com" },
-    { id: 2, name: "María García", email: "maria.garcia@example.com", website: "mariagarcia.com" },
-    { id: 3, name: "Carlos Pérez", email: "carlos.perez@example.com", website: "carlosperez.com" },
-    { id: 4, name: "Ana Rodríguez", email: "ana.rodriguez@example.com", website: "anarodriguez.com" },
-    { id: 5, name: "Pedro López", email: "pedro.lopez@example.com", website: "pedrolopez.com" }
-]
